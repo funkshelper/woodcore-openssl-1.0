@@ -1,6 +1,8 @@
 PRW -  Woodcoin Core integration/staging tree (yes tree)
 =====================================
 
+This repo is WOODCORE without the SSL1.1 additions, for older systems with OPENSSL 1.0
+
 This project is a fully armed and operational bitcoin-core ported to the woodcoin network.  
 
 Dedicated to Sipa, Nullc, and Coblee.  Props and Kudos.  
@@ -51,4 +53,21 @@ Development Process
 -------------------
 
 Developer IRC can be found on Freenode at #Woodcoin-dev and #Woodcoin.
+
+Dependencies:   (listed w/ debian/ubuntu names)
+
+build-essential
+autoconf
+libboost-all-dev libcurl4-openssl-dev libdb-dev qt-sdk libminiupnpc-dev
+openssl
+libzmq3-dev
+libevent-dev
+libssl-dev
+libminiupnpc-dev
+libtool
+libdb++-dev
+qttools5-dev-tools
+
+
+
 
