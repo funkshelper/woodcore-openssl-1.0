@@ -1,6 +1,7 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'c:/Users/pamen/Documents/GitHub/lotuscore-openssl-1.0'
-make: Leaving directory 'c:/Users/pamen/Documents/GitHub/lotuscore-openssl-1.0'
  
 make: *** No targets specified and no makefile found.  Stop.
 
+make: Leaving directory 'c:/Users/pamen/Documents/GitHub/lotuscore-openssl-1.0'
+ 

@@ -7,8 +7,9 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Fri Sep  9 21:40:43 2022
+# Make data base, printed on Sun Sep 11 23:43:13 2022
 
 # Variables
 
@@ -30,8 +31,6 @@ LOCAL_GIT_DIRECTORY = C:\Users\pamen\AppData\Local\GitHubDesktop\app-3.0.7\resou
 LOCALAPPDATA = C:\Users 
 \pamen\AppData\Local
 # environment
-WSLENV = VSCODE_CLI_REMOTE_ENV/w:ELECTRON_RUN_AS_NODE/w:
-# environment
 VSCODE_CWD = C:\Users\pamen\AppData\Local\GitHubDesktop\app-3.0.7
 # environment
 SYSTEMROOT = C:\WINDOWS
@@ -44,10 +43,10 @@ MAKE_COMMAND := make.exe
 # environment
 GPU_FORCE_64BIT_PTR = 1
 # automatic
-@D = $(patsubst %/,% 
-,$(patsubst %\,%,$(dir $@)))
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13320_IERKLPTJVZHAJGUP
+CHROME_CRASHPAD_PIPE_NAME =  
+\\.\pipe\crashpad_19412_YTRRPCNPMDSACBGQ
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -63,10 +62,10 @@ GPU_MAX_HEAP_SIZE = 100
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\pamen\AppData\Roaming\Code\Ca 
-chedData\784b0177c56c607789f9638da7b6bf3230d47a8c
+VSCODE_CODE_CACHE_PATH = C:\Users\pamen\AppData\Roaming\Code\CachedData\784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
-LANG = C
+LANG =  
+C
 # default
 .LOADED := 
 # environment
@@ -89,7 +88,8 @@ MFLAGS = -pqrR
 .SHELLFLAGS := -c
 # environment
 ETHEREUM_SOCKET = \\.\pipe\geth.ipc
-# environment
+# envir 
+onment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
@@ -98,19 +98,18 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 13320
+VSCODE_PID = 19412
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_CLI_REMOTE_ENV = /tmp/vscode-distro-env.YUXIln
-# environment
 GPU_SINGLE_ALLOC_PERCENT = 100
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"tr","availableLanguages":{"*":"tr"},"_languagePackId":"00371229613208dc9f03e1093c8b9665.tr","_translationsConfigFile":"C:\\Users\\pamen\\AppData\\Roaming\\Code\\clp\\00371229613208dc9f03e1093c8b9665.tr\\tcf.json","_cacheRoot":"C:\\Users\\pamen\\AppData\\Roaming\\Code\\clp\\00371229613208dc9f03e1093c8b9665.tr","_resolvedLanguagePackCoreLocation":"C:\\Users\\pamen\\AppData\\Roaming\\Code\\clp\\00371229613208dc9f03e1093c8b9665.tr\\784b0177c56c607789f9638da7b6bf3230d47a8c","_corruptedFile":"C:\\Users\\pamen\\AppData\\Roaming\\Code\\clp\\00371229613208dc9f03e1093c8b9665.tr\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"tr","availableLanguages":{"*":"tr"},"_languagePackId":"00371229613208dc9f03e1093c8b9665.tr","_translationsConfigFile":"C:\\Users\\pamen\\AppData\\Roaming\\Code\\clp\\00371229613208dc9f03e1093c8b9665.tr\\tcf.json","_cacheRoot":"C:\\Users\\pamen\\AppData\\Roaming\\Code\\clp\\00371229613208dc9f03e1093c8b9665.tr","_resolvedLanguagePackCoreLocation":"C:\\Users\\pamen\\AppData\\Roaming\\Code\\clp\\00371229613208dc9f03e1093c8b9665.tr\\784b0177c56c607789f9638da7b6bf3230d47a8c","_corruptedFile":"C:\\Users\\pamen\\AppData\\Roaming\\Code\\clp\\00371229613208dc9f03e1093c8b9665 
+.tr\\corrupted.info","_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
@@ -134,9 +133,11 @@ GPU_MAX_ALLOC_PERCENT = 100
 # environment
 MAKELEVEL := 0
 # default
-MAKE = $(MAKE_COMMAND)
+MAKE = $(MA 
+KE_COMMAND)
 # environment
-PATH = D:\Program Files (x86)\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\mingw-w64\bin\;D:\xampp\mysql\bin;C:\mingw-w64\bin\mingw32-make.exe;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;"C:\mingw32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\";C:\Program Files\Geth;C:\Program Files\nodejs\;C:\Users\pamen\AppData\Local\GitHubDesktop\app-3.0.5\resources\app\git\cmd;C:\Users\pamen\AppData\Local\Microsoft\WindowsApps;C:\Users\pamen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pamen\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_291\bin;"C:\mingw32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\";C:\Program Files\Geth;C:\Users\pamen\AppData\Roaming\npm;C:\Users\pamen\AppData\Local\GitHubDesktop\app-3.0.5\resources\app\git\cmd;
+PATH = D:\Program Files (x86)\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\mingw-w64\bin\;D:\xampp\mysql\bin;C:\mingw-w64\bin\mingw32-make.exe;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin;"C:\mingw32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\";C:\Program Files\Geth;C:\Program Files\nodejs\;C:\Users\pamen\AppData\Local\GitHubDesktop\app-3.0.5\resources\app\git\cmd;C:\Users\pamen\AppData\Local\Microsoft\WindowsApps;C:\Users\pamen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pamen\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jre1.8.0_291\bin;"C:\mingw 
+32\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\";C:\Program Files\Geth;C:\Users\pamen\AppData\Roaming\npm;C:\Users\pamen\AppData\Local\GitHubDesktop\app-3.0.5\resources\app\git\cmd;
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -152,7 +153,8 @@ LOGONSERVER = \\DESKTOP-MBSFPUF
 # environment
 USERNAME = pamen
 # environment
-COMMONPROGRAMFILES = C:\Program Files\Common Files
+COMMONPROGRAMFILE 
+S = C:\Program Files\Common Files
 # automatic
 ?F = $(notdir $?)
 # environment
@@ -168,8 +170,7 @@ USERDOMAIN = DESKTOP-MBSFPUF
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-OS  
-= Windows_NT
+OS = Windows_NT
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -177,7 +178,8 @@ MAKE_VERSION := 4.3
 # environment
 GETHV = C:\Program Files\Geth
 # environment
-PROGRAMFILES(X86) = C:\Program Files (x86)
+PROGRAMFI 
+LES(X86) = C:\Program Files (x86)
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-MBSFPUF
 # environment
@@ -193,11 +195,11 @@ HOMEDRIVE = C:
 # environment
 PROCESSOR_ARCHITECTURE = AMD64
 # environment
-VSCODE_AMD_ENTRYPO 
-INT = vs/workbench/api/node/extensionHostProcess
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
+ 
 ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\pamen\AppData\Local\Temp
@@ -215,28 +217,28 @@ ALLUSERSPROFILE = C:\ProgramData
 SESSIONNAME = Console
 # environment
 VSCODE_CLI = 1
-# environ 
-ment
+# environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 QTMSBUILD = C:\Users\pamen\AppData\Local\QtMsBuild
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync
+.FEATURES := target-specific 
+ order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync
 # environment
 PROCESSOR_REVISION = a505
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
 # variable set hash-table stats:
-# Load=104/1024=10%, Rehash=0, Collisions=9/127=7%
+# Load=102/1024=10%, Rehash=0, Collisions=9/125=7%
 
-# Pattern-specific V 
-ariable Values
+# Pattern-specific Variable Values
 
 # No pattern-specific variable values.
 
 # Directories
 
-# . (key c:/Users/pamen/Documents/GitHub/lotuscore-openssl-1.0, mtime 1656487438): 20 files, no impossibilities.
+# . (key c:/Users/pamen/Documents/GitHub/lotuscore-openssl-1.0, mtim 
+e 1656487438): 20 files, no impossibilities.
 
 # 20 files, no impossibilities in 1 directories.
 
@@ -256,15 +258,15 @@ all:
 # Not a target:
 .DEFAULT:
 #  Implicit rule search has not been done.
-#  Modification time 
- never checked.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has been updated.
+#   
+File has been updated.
 #  Failed to be updated.
 
 # Not a target:
@@ -282,20 +284,20 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
-# Load=6/ 
-1024=1%, Rehash=0, Collisions=0/16=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 245 B / avg = 9 B
+# str 
+cache buffers: 1 (0) / strings = 26 / storage = 245 B / avg = 9 B
 # current buf: size = 8162 B / used = 245 B / count = 26 / avg = 9 B
 
 # strcache performance: lookups = 29 / hit rate = 10%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Fri Sep  9 21:40:43 2022
+# Finished Make data base on Sun Sep 11 23:43:13 2022
 
  
